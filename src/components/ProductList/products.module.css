@@ -1,0 +1,22 @@
+.productList {
+
+}
+
+.product {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    width: 350px;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+
+}
+
+.productList .product img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
